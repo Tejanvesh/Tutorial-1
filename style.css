@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: grey;
+}
+
+nav {
+    background: black;
+    height: 60px;
+    width: 100%;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 60px;
+    padding: 0 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    background-color: grey;
+    padding: 10px 30px;
+    transition: all 0.5s;
+}
+
+.banner {
+    margin-top: 15px;
+    float: right;
+    margin-right: 100px;
+    padding-bottom: 2.5rem;
+}
+
+.banner-text {
+    position: relative;
+    margin-left: 100px;
+    color: white;
+    padding: 30px;
+    padding-bottom: 2.5rem;
+    text-align: left;
+    margin-right: 450px;
+}
+
+.banner-text h1 {
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 5;
+}
+
+.banner-text p {
+    line-height: 1.5;
+    padding-bottom: 2.5rem;
+}
+
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.footer ul li a{
+    color: white;
+    text-transform: capitalize;
+}
+button{
+    background-color: black;
+    color:white;
+    border-radius:15px;
+    height: 50px;
+    width: 100px;
+    text-transform: uppercase;
+    margin-inline-start: 650px;
+    cursor:pointer;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+  .text{
+    font-size: larger;
+  }
+
+  .video{
+    margin-left: 575px;
+  }
+  
+  .text2{
+    text-align: center;
+    font-size: larger;
+  }
+  form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+.cred {
+    display: block;
+    margin-bottom: 10px;
+}
+textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button{
+    background-color: black;
+    color:white;
+    border-radius:15px;
+    height: 50px;
+    width: 100px;
+    text-transform: uppercase;
+    margin-inline-start: 100px;
+    cursor:pointer;
+}
+
+
